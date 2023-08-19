@@ -1,0 +1,6 @@
+com\Api\GitHub\UtilityLayer\UtilsClass.class
+com\Api\GitHub\BaseApiLayer\BaseApi.class
+com\Api\GitHub\Model\RepositoryPojo.class
+com\Api\GitHub\Helper\ReadJsonFile.class
+com\Api\GitHub\Helper\ReadProperties.class
+com\Api\GitHub\UtilityLayer\RestUtils.class

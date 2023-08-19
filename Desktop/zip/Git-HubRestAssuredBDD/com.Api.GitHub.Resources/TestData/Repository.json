@@ -1,0 +1,13 @@
+{
+	"createRepository": {
+		"name": "Orange",
+		"description": "Repository Created",
+		"homepage": "https://github.com",
+		"is_template": true
+	}
+	,
+	"updateRepository": 
+	{
+		"description": "Repository Updated"
+	}
+}
