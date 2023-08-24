@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<theme>standard</theme>
+		<encoding>UTF-8</encoding>
+		<protocol>http</protocol>
+		<documentTitle>GitHub API Application</documentTitle>
+		<reportName>Extent Report</reportName>
+		<testViewChartLocation>bottom</testViewChartLocation>
+	</configuration>
+</extentreports>

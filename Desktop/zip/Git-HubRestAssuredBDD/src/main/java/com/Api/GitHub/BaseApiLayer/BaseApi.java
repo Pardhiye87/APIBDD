@@ -1,5 +1,6 @@
 package com.Api.GitHub.BaseApiLayer;
 
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
@@ -15,18 +16,28 @@ public class BaseApi {
 
 	public ReadProperties prop = new ReadProperties();
 	public UtilsClass util =new UtilsClass();
-	public RequestSpecification httpReq;
 	
-	String path = System.getProperty("user.dir")+"\\com.Api.GitHub.LogsFolder\\logs"+util.getCurrentDateAndTime()+".txt";
+	public RequestSpecification httpReq;
+	public FileOutputStream fio;
+	public PrintStream log;
+	
+	String path = System.getProperty("user.dir")+"\\com.Api.GitHub.LogsFolder\\logs_"+util.getCurrentDateAndTime()+".txt";
 
-	public RequestSpecification getRequestSpecification() throws Exception 
+	public RequestSpecification getRequestSpecification()
 	{
 		if(httpReq==null)
 		{
 			
-		FileOutputStream fio = new FileOutputStream(path);
+		
+		try 
+		{
+			fio = new FileOutputStream(path);
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+		}
 
-		PrintStream log = new PrintStream(fio);
+		log = new PrintStream(fio);
 
 		httpReq= RestAssured
 				.given()

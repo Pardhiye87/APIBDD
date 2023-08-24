@@ -22,7 +22,7 @@ public class RespositoryApiSteps extends BaseApi {
 	private Response resp;
 	private static RestUtils rest;
 	private static ReadJsonFile json;
-	private static String repositoryName;
+	public static String repositoryName;
 
 	@Given("get the request Specification object and pass the base path as {string}")
 	public void get_the_request_specification_object_and_pass_the_base_path_as(String basePath) throws Exception {
@@ -82,9 +82,31 @@ public class RespositoryApiSteps extends BaseApi {
 	public void validate_json_schema_for_repository() {
 
 		String path = "C:\\Users\\Admin\\Desktop\\zip\\Git-HubRestAssuredBDD\\com.Api.GitHub.Resources\\RepositorySchema.json";
-
 		resp.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(new File(path)));
 
 	}
+	
+	//----------------------------------------------------------------------------------------------
+	@When("user select HTTP GET request")
+	public void user_select_http_get_request() {
+	   resp= rest.getRepositoryAsPerRepoName(httpReq, repositoryName );
+	}
+	
+	@Then("validate Json schema for GET Repository")
+	public void validate_json_schema_for_get_repository() {
+		String path = "C:\\Users\\Admin\\Desktop\\zip\\Git-HubRestAssuredBDD\\com.Api.GitHub.Resources\\GetRequestSchema.json";
+        resp.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(new File(path)));
+	}
+	//-------------------------------------------------------------------------------------------------
+	///@When("user select HTTP PATCH request")
+	//public void user_select_http_patch_request() {
+	  // resp= rest.updateRepositoryAsPerRepoName(httpReq, repositoryName);
+	//}
+	//---------------------------------------------------------------------------------------------------
+	@When("user select HTTP DELETE request")
+	public void user_select_http_delete_request() {
+	   resp= rest.deleteRepositoryAsPerRepoName(httpReq, repositoryName);
+	}
+	
 
 }

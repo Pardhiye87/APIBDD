@@ -19,7 +19,7 @@ public class ReadProperties {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
+		
 		return prop.getProperty(key);
 
 	}

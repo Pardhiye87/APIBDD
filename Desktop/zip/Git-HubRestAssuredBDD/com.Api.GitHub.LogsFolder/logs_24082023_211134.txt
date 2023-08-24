@@ -1,0 +1,176 @@
+Request method:	GET
+Request URI:	https://api.github.com/repos/Pardhiye87/Orange
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Thu, 24 Aug 2023 15:41:34 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"cac99e8e4677ea5a497f8bc831030fccbb742c0b50abee8d1f781f5c7b5a11c3"
+Last-Modified: Thu, 24 Aug 2023 15:41:32 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: repo
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4990
+X-RateLimit-Reset: 1692894896
+X-RateLimit-Used: 10
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 531B:386AD8:AA3EC:B5082:64E77A2E
+
+{
+    "id": 682636838,
+    "node_id": "R_kgDOKLA2Jg",
+    "name": "Orange",
+    "full_name": "Pardhiye87/Orange",
+    "private": false,
+    "owner": {
+        "login": "Pardhiye87",
+        "id": 120667041,
+        "node_id": "U_kgDOBzE7oQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/120667041?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Pardhiye87",
+        "html_url": "https://github.com/Pardhiye87",
+        "followers_url": "https://api.github.com/users/Pardhiye87/followers",
+        "following_url": "https://api.github.com/users/Pardhiye87/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Pardhiye87/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Pardhiye87/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Pardhiye87/subscriptions",
+        "organizations_url": "https://api.github.com/users/Pardhiye87/orgs",
+        "repos_url": "https://api.github.com/users/Pardhiye87/repos",
+        "events_url": "https://api.github.com/users/Pardhiye87/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Pardhiye87/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/Pardhiye87/Orange",
+    "description": "Repository Created",
+    "fork": false,
+    "url": "https://api.github.com/repos/Pardhiye87/Orange",
+    "forks_url": "https://api.github.com/repos/Pardhiye87/Orange/forks",
+    "keys_url": "https://api.github.com/repos/Pardhiye87/Orange/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Pardhiye87/Orange/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Pardhiye87/Orange/teams",
+    "hooks_url": "https://api.github.com/repos/Pardhiye87/Orange/hooks",
+    "issue_events_url": "https://api.github.com/repos/Pardhiye87/Orange/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Pardhiye87/Orange/events",
+    "assignees_url": "https://api.github.com/repos/Pardhiye87/Orange/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Pardhiye87/Orange/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Pardhiye87/Orange/tags",
+    "blobs_url": "https://api.github.com/repos/Pardhiye87/Orange/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Pardhiye87/Orange/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Pardhiye87/Orange/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Pardhiye87/Orange/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Pardhiye87/Orange/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Pardhiye87/Orange/languages",
+    "stargazers_url": "https://api.github.com/repos/Pardhiye87/Orange/stargazers",
+    "contributors_url": "https://api.github.com/repos/Pardhiye87/Orange/contributors",
+    "subscribers_url": "https://api.github.com/repos/Pardhiye87/Orange/subscribers",
+    "subscription_url": "https://api.github.com/repos/Pardhiye87/Orange/subscription",
+    "commits_url": "https://api.github.com/repos/Pardhiye87/Orange/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Pardhiye87/Orange/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Pardhiye87/Orange/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Pardhiye87/Orange/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Pardhiye87/Orange/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Pardhiye87/Orange/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Pardhiye87/Orange/merges",
+    "archive_url": "https://api.github.com/repos/Pardhiye87/Orange/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Pardhiye87/Orange/downloads",
+    "issues_url": "https://api.github.com/repos/Pardhiye87/Orange/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Pardhiye87/Orange/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Pardhiye87/Orange/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Pardhiye87/Orange/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Pardhiye87/Orange/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Pardhiye87/Orange/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Pardhiye87/Orange/deployments",
+    "created_at": "2023-08-24T15:41:31Z",
+    "updated_at": "2023-08-24T15:41:32Z",
+    "pushed_at": "2023-08-24T15:41:32Z",
+    "git_url": "git://github.com/Pardhiye87/Orange.git",
+    "ssh_url": "git@github.com:Pardhiye87/Orange.git",
+    "clone_url": "https://github.com/Pardhiye87/Orange.git",
+    "svn_url": "https://github.com/Pardhiye87/Orange",
+    "homepage": "https://github.com",
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": true,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "temp_clone_token": "",
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "security_and_analysis": {
+        "secret_scanning": {
+            "status": "disabled"
+        },
+        "secret_scanning_push_protection": {
+            "status": "disabled"
+        },
+        "dependabot_security_updates": {
+            "status": "disabled"
+        }
+    },
+    "network_count": 0,
+    "subscribers_count": 1
+}
